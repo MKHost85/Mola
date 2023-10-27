@@ -1,0 +1,128 @@
+
+/* ============= */
+header{
+    background:url('../images/blog-bg.png');
+    height: 639px;
+}
+/* .bg-header{
+    background:url('../images/blog-bg.png'),linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+} */
+/*=================================== */
+.box-logo>.logo-text,.nav-links>.social-text{
+    color: #000;
+}
+.nav-links>.social-links>li{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid #1c1c22;
+    text-align: center;
+}
+.logo-text,.hero-spa-txt,.about-hero-title{
+    color: #1c1c22 important!;
+}
+.share-link-list{
+    background: rgba(159, 159, 172, 0.10);
+    width: 461px;
+    height: 64px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 144px;
+}
+
+/* this is social style */
+.blog-social-links,.blog-nav-links {
+    display: flex;
+    gap: 24px;
+}
+.blog-social-links>li{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFFFFF33;
+    text-align: center;
+}
+.blog-social-links>li>img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.blog-nav-links>.blog-social-text{
+    padding:10px 28px;
+    color: #0B0B0E;
+}
+/* start hero section style================================================================= */
+.about-hero-desc{
+    width: 770px;
+    height: 44px;
+}
+.global-title{
+    color: #0B0B0E;
+}
+.blog-about-hero-desc{
+    /* font-size: 20px; */
+    width: 777px;
+    height: 44px;
+}
+.img-about>img{
+    height: 850px;
+    width: 1920px;
+}
+/* =============================================================================================== */
+.serv-img>.serv-imgs{
+    display: flex;
+    gap: 20px;
+}
+
+.serv-imgs>img{
+    width: 550px;
+    object-fit: cover;
+}
+/* .slide-serv-con{ */
+        /* overflow:hidden; */
+/* } */
+
+.serv-spa{
+    display: block;
+    margin-bottom: 20px;
+}
+
+/*  */
+.other-add-con{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+.paras{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    justify-content:flex-start;
+    margin-right: -25px;
+}
+.para{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 170%;
+    width: 1255px;
+}
+.para:nth-child(1){
+    height: 304px;
+}
+.para:nth-child(2){
+    height: 140px;
+}
+.para:nth-child(3){
+    height: 181px;
+}
+.other-add-title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 170%;
+}
+/* footer===================================== */
+.footer{
+    position: absolute;
+    top: 4145px;
+}

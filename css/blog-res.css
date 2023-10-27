@@ -1,0 +1,44 @@
+header{
+    height: 429px;
+}
+/* start new section art section */
+.anthor-art{
+    position: absolute;
+    top: 200px;
+    width: 326px;
+    gap: 41px;
+
+}
+/* art2 section=============================================== */
+.art2{
+    position: absolute;
+    top: 1500px;
+    width: 326px;
+    gap: 41px;
+
+}
+/* art2 section=============================================== */
+/* slide-serv================================================= */
+.slide-service{
+    position: absolute;
+    top: 1100px;
+}
+.vedio{
+    display: flex;
+    width: 335px;
+    height: 276px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+}
+/* footer ============================================================= */
+.footer{
+    position: absolute;
+    top:3000px;
+    color: #FFF;
+    /* background-color: url('../images/foot-card-bg.png'); */
+    background: #1C1C22;
+}
+
+

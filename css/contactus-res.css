@@ -1,0 +1,250 @@
+header{
+    width: 379px;
+    height: 429px;
+    top: -1px;
+    left: -2px;
+    background: url('../images/responsive/about-bg-hero.png') #1C1C22;
+}
+.about-hero{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 334px;
+    height: 73px;
+    margin-top: 195px;
+}
+.about-hero-desc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 142px;
+    height: 24px;
+    gap: 12px;
+}
+
+.hero-spa-txt{
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.about-hero-desc>img{
+    width: 24px;
+    height: 24px;
+}
+
+.about-hero-title{
+    width: 334px;
+    height: 17px;  
+    color:  #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%; /* 40.8px */
+}
+
+/* connection section style ===========  */
+
+.connection{
+    position: absolute;
+    top: -100px;
+    width: 334px;
+    height: 179px;
+    left: 20px;
+}
+.connection-con{
+    padding: 20px 0px;
+    background: #FFEE06;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.con-span{
+    display: inline-block;
+    width: 299px;
+    color: #0B0B0E;
+    text-align: center;
+    font-size: 7.98px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 11.97px */
+}
+.con-email{
+    color:  #0B0B0E;
+    text-align: center;
+    font-size: 24.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%; /* 41.225px */
+}
+
+.con-area, .con-phone{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.con-area>.address ,.con-phone>.address{
+    color: #0B0B0E;
+    text-align: right;
+    font-size: 9.048px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 13.571px */
+}
+
+.con-area>img ,.con-phone>img{
+    width: 14.732px;
+    height: 14.732px;
+    
+}
+.send{
+    position: absolute;
+    top: 200px;
+}
+.send-con{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.send-right>form,.send-first-sec{
+    display: flex;
+    width: 335px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.lab-inp{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label{
+    color: #181923;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+}
+
+input{
+    width: 335px;
+    height: 45px;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 11.485px;
+    align-self: stretch;
+    border: 1px solid rgba(159, 159, 172, 0.60);
+    background: #FFF;
+}
+.send-second-sec{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;    
+}
+.l-side{
+    display: flex;
+    width: 117px;
+    height: 45px;
+    padding: 10px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    align-self: stretch;
+    border: 1px solid rgba(159, 159, 172, 0.60);
+    background: #FFF;
+}
+.send-aro{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+.sodi-logo{
+    width: 30px;
+    height: 20px;
+    flex-shrink: 0;
+}
+.r-side>input{
+    width: 189px;
+    height: 45px;
+}
+textarea{
+    width: 335px;
+    height: 149px;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.btn-send{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 142px;
+    height: 52px;
+    border: 1px solid  #1C1C22;
+    background:  #FFF;
+}
+
+.btn-send-txt{
+    width: 44px;
+    height: 11px;
+    color:  #0B0B0E;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    margin: 19px 16px 20px 80px;
+}
+
+.btn-send>img{
+    width: 24px;
+    height: 24px;
+    margin: 13px -20px 14px 14px;
+    
+}
+
+.send-left{
+    width: 335px;
+    height: 229px;
+    flex-shrink: 0;
+    opacity: 0.4;
+    background:  #1c1c22;
+}
+.send-left>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec-img-layer{
+    position: absolute;
+    top: 1200px;
+}
+.img-layer{
+    background: url('../images/img-layer.png');
+    width: 375px;
+    height: 176px;
+}
+
+
+/* footer===================================================== */
+
+
+/* start endpage section========================================================= */
+.footer{
+    padding-top: 100px;
+    position: absolute;
+    top: 1350px;
+    color: #FFF;
+    /* background-color: url('../images/foot-card-bg.png'); */
+    background: #1C1C22;
+}

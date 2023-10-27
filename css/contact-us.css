@@ -1,0 +1,186 @@
+header{
+    height: 700px;
+}
+
+
+.sm-title{
+    color: #fff;
+}
+
+
+
+.connection{
+    position: absolute;
+    top: -400px;
+    left: 200px;
+}
+
+.connection-con{
+    background: #FFEE06;
+    width: 1420px;
+    height: 586px;
+
+}
+.send{
+    width: 1920px;
+    position: absolute;
+    top: 400px;
+}
+.send-con{
+    display: flex;
+    justify-content: flex-end;
+    gap: 150px;
+}
+.send-right{
+    width: 940px;
+    height: 977px;
+    
+}
+.send-left{
+    margin-top: 100px;
+    width: 581px;
+    height: 677px;
+}
+.send-left>img{
+    width: 100%;
+    height: 100%;
+}
+
+label{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 170%;
+}
+
+.send-right>form , .lab-inp{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+.bdr{
+    border: 1px solid rgba(159, 159, 172, 0.60);
+    opacity: 0.4;
+}
+.send-right>form{ gap: 48px;}
+.lab-inp{gap: 24px;}
+
+.send-first-sec{
+    display: flex;
+    gap: 24px;
+}
+.send-second-sec{
+    display: flex;
+    gap: 24px;
+}
+form>.lab-inp>input{
+    width: 940px;
+    height: 73px;
+    padding: 24px 20px;
+    
+}
+form >.send-second-sec>.lab-inp>input{
+    width: 799px;
+    height: 73px;
+    padding: 24px 20px;
+}
+form>.send-first-sec>.lab-inp>input{
+    width: 458px;
+    height: 73px;
+    padding: 24px 20px;
+}
+
+::placeholder{
+    color: black;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 170%;
+}
+
+.l-side{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    width: 117px;
+    height: 73px;
+    padding: 11px 10px;
+    border: 1px solid rgba(159, 159, 172, 0.60);
+    gap: 5px;
+}
+
+.l-side>img:nth-child(1){
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+}
+.sodi-num{
+    width: 37px;
+    height: 11px;
+}
+.l-side>img:nth-child(2){
+    margin-top: 15px;
+    height: 20px;
+    width: 30px;
+}
+form>textarea{
+    width: 940px;
+    height: 149px;
+    padding: 24px 20px;
+    
+}
+.pd-50{
+    padding: 50px 0px;
+}
+
+.btn-send{
+    display: flex;
+    justify-content: center;
+    background: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 170%;
+    align-items: center;
+    width: 206px;
+    height: 63px;
+}
+.send-text{
+    width: 65px;
+    height: 17px;
+    margin: 26px 45px 40px 46px;
+}
+.btn-send>img{
+    width: 24px;
+    height: 24px;
+    margin:13px  25px;
+
+}
+
+.lab-inp>textarea{
+    display: block;
+    width: 940px;
+    height: 149px;
+    padding: 10px;
+}
+
+/* imglayer */
+
+.sec-img-layer{
+    position: absolute;
+    top: 1200px;
+}
+.img-layer{
+    background: url('../images/img-layer.png') no-repeat 100%;
+    width: 1917px;
+    height: 901px;
+    background-size: 100%;
+}
+
+
+/* footer */
+.footer{
+    position: absolute;
+    top: 2000px;
+}

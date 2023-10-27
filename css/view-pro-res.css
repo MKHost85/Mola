@@ -1,0 +1,253 @@
+header{
+    height: 429px;
+}
+.img-about>img{
+    margin-top: 146px;
+    width: 380px;
+    height: 223px;
+    flex-shrink: 0;
+}
+
+/* end header section */
+/* start info list section */
+.inf-project{
+    position: absolute;
+    top: 300px;
+}
+.inf-list{
+    display: flex;
+    width: 335px;
+    height: 168px;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;
+    background:rgba(159, 159, 172, 0.1);
+}
+
+.inf-list>li{
+    display: flex;
+    padding: 16px 13px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+
+.inf-span{
+    color:  #1C1C22;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 21px */
+}
+
+
+/* for-pro section ==================================================== */
+.for-pro{
+    position: absolute;
+    top: 600px;
+}
+.for-pro>.container>.box-hero{
+    width: 335px;
+    height: 207px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 33px;
+}
+.for-pro-title{
+    width: 335px;
+    color:  #1C1C22;
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%; /* 40.8px */
+    
+}
+
+.for-pro-desc{
+    color: #1C1C22;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+.img-for-pro>img{
+    width: 335px;
+    height: 206px;
+    flex-shrink: 0;
+    margin: 60px 0px;
+}
+.bd-r{
+    border-right: 3px solid #FFEE06;
+    border-radius: 30px;
+
+}
+
+.bd-l{
+    border-left: 3px solid #FFEE06;
+    border-radius: 30px;
+
+}
+.r-states{
+    padding-right: 14px;
+}
+.states-con{
+    width: 319px;
+    height: 497px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 48px;
+    align-self: stretch;
+}
+.states-title{
+    text-align: right;
+    width: 296px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%; /* 40.8px */
+}
+
+.states-desc{
+    width: 296px;
+    height: 157px;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+
+.states-con>.l-states>img{
+    width: 319px;
+    height:235px;
+    object-fit: cover;
+
+}
+.hr-for-pro{
+    margin: 60px 0px;
+    width: 335px;
+    height: 0px;
+    opacity: 0.1;
+    background: #000;
+}
+
+.for-pro-all{
+    position: absolute;
+    top: 3200px;
+}
+
+.for-pro-all-con{
+    width: 335px;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+
+}
+
+
+
+.for-all{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.all-inside-r>img{
+    width: 45.976px;
+    height: 36.27px;
+    flex-shrink: 0;
+}
+.all-inside-r>.for-all-desc, .all-inside-l>.for-all-l{
+    color:  #1C1C22;
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 18px */
+}
+
+.all-inside-l>.for-arrow{
+    width: 27.585px;
+    height: 27.585px;
+}
+
+
+
+/* connection section style ===========  */
+
+.connection{
+    position: absolute;
+    top: 3400px;
+    width: 334px;
+    height: 179px;
+    left: 20px;
+}
+.connection-con{
+    padding: 20px 0px;
+    background: #FFEE06;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.con-span{
+    display: inline-block;
+    width: 299px;
+    color: #0B0B0E;
+    text-align: center;
+    font-size: 7.98px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 11.97px */
+}
+.con-email{
+    color:  #0B0B0E;
+    text-align: center;
+    font-size: 24.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%; /* 41.225px */
+}
+
+.con-area, .con-phone{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.con-area>.address ,.con-phone>.address{
+    color: #0B0B0E;
+    text-align: right;
+    font-size: 9.048px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 13.571px */
+}
+
+.con-area>img ,.con-phone>img{
+    width: 14.732px;
+    height: 14.732px;
+    
+}
+/* start endpage section========================================================= */
+.footer{
+    position: absolute;
+    top: 3500px;
+    color: #FFF;
+    background: #1C1C22;
+    z-index: -3;
+}

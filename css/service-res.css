@@ -1,0 +1,89 @@
+header{
+    height: 429px;
+
+}
+.vedio{
+    display: flex;
+    width: 335px;
+    height: 276px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+}
+/* end header section============================================= */
+/* ====================================================================== */
+/* start build section========================================================== */
+.build{
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    background: #FFF;
+    color: #1C1C22;
+}
+
+
+/* end build section================================================== */
+/* portfolio section ================================== */
+.portfolio{
+    padding: 120px 0px;
+    position: absolute;
+    top: 1000px;
+    background: #1C1C22;
+    color: #FFF;
+}
+
+
+
+/*end portfolio  section ========================================= */
+
+/* start number section===================================================== */
+.cards-num{
+    position: absolute;
+    top: 5200px;
+}
+/* end card num section============================================= */
+/* mor know section ========================================================= */
+.mor-know{
+    width: 375px;
+    height: 300px;
+    background-image: url('../images/our-serv-bg.png');
+    position: absolute;
+    top: 6000px;
+}
+.know-title{
+    color: #FFF;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%; /* 40.8px */
+}
+.know-img{
+    position: absolute;
+    width: 335px;
+    height: 276px;
+    top: 100px;
+    left: 20px;
+}
+/* fqa section================================================================ */
+.fqa{
+    position: absolute;
+    top: 6500px;
+    width: 378px;
+}
+/* ===========================work style=========================== */
+.work{
+    position: absolute;
+    top: 7200px;
+}
+
+/* footer===================================================== */
+.footer{
+    position: absolute;
+    top: 7900px;
+    color: #FFF;
+    background-color: url('../images/foot-card-bg.png');
+    background: #1C1C22;
+}
