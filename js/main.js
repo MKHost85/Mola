@@ -38,3 +38,56 @@ toLeftSmallMedia.onclick = () => {
 toRightSmallMedia.onclick = () => {
     imageMain.classList.remove('left')
 }
+
+
+// dispaly menu projects
+var openMenuProjects = document.querySelector('.projects-open-menu')
+var menuProjects = document.querySelector('.nav-menu-all-projects')
+var rotateArrow = document.querySelector('.projects-open-menu i')
+
+openMenuProjects.onclick = (e) => {
+    e.preventDefault()
+    menuProjects.classList.toggle("show")
+    rotateArrow.classList.toggle('rotate')
+}
+
+// active hover in menu projects
+var allProjectsLinks = document.querySelectorAll('.all-projects-links .link')
+var allProjectsImages = document.querySelectorAll('.all-projects-show-img img')
+
+
+for (let link of allProjectsLinks) {
+
+    link.addEventListener("mouseenter", function () {
+        // 1. Remove Class from All Lis
+        for (let link of allProjectsLinks) {
+            link.classList.remove('active');
+        }
+        for (let img of allProjectsImages) {
+            img.classList.remove('active');
+        }
+
+        // 2. Add Class to Relevant Li
+        this.classList.add('active');
+
+        for (let img of allProjectsImages) {
+            if(img.getAttribute('data-section') == this.getAttribute('data-section')) {
+                img.classList.add("active")
+            }
+        }
+
+
+        // console.log(this.getAttribute('data-section'));
+
+        // for (let img of allProjectsImages) {
+        //     console.log(img.getAttribute('data-section'));
+        // }
+
+
+    });
+
+}
+
+//              ^
+// change image ^
+
