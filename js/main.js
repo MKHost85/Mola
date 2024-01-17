@@ -10,33 +10,8 @@ closeNav.onclick = () => {
 };
 
 openNav.onclick = () => {
-    console.log("totot");
     navMenu.classList.add('open')
     navMenu.classList.remove('close')
-}
-
-
-// change image in Ideas
-var toLeft = document.querySelector('.ideas .idea-content-2 .to-left')
-var toRight = document.querySelector('.ideas .idea-content-2 .to-right')
-var imageMain = document.querySelector('.ideas .idea-content-2 .image-main')
-var toLeftSmallMedia = document.querySelector('.ideas .idea-content-2 .to-left-small')
-var toRightSmallMedia = document.querySelector('.ideas .idea-content-2 .to-right-small')
-// larg media
-toLeft.onclick = () => {
-    imageMain.classList.add('left')
-}
-toRight.onclick = () => {
-    imageMain.classList.remove('left')
-
-}
-
-// small media
-toLeftSmallMedia.onclick = () => {
-    imageMain.classList.add('left')
-}
-toRightSmallMedia.onclick = () => {
-    imageMain.classList.remove('left')
 }
 
 
@@ -71,23 +46,12 @@ for (let link of allProjectsLinks) {
         this.classList.add('active');
 
         for (let img of allProjectsImages) {
-            if(img.getAttribute('data-section') == this.getAttribute('data-section')) {
+            if (img.getAttribute('data-section') == this.getAttribute('data-section')) {
                 img.classList.add("active")
             }
         }
-
-
-        // console.log(this.getAttribute('data-section'));
-
-        // for (let img of allProjectsImages) {
-        //     console.log(img.getAttribute('data-section'));
-        // }
-
-
     });
-
 }
 
-//              ^
-// change image ^
+
 
